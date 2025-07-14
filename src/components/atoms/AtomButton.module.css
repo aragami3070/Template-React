@@ -1,0 +1,17 @@
+.AtomButton {
+  width: 200px;
+  height: 50px;
+  font-size: 15pt;
+  border-radius: 8px;
+  background-color: var(--grey-color);
+  color: var(--blue-color);
+  transition-duration: 0.4s;
+  border-color: var(--blue-dark-color);
+}
+
+@media (hover: hover) {
+  .AtomButton:hover {
+    background-color: var(--blue-color);
+    color: var(--grey-color);
+  }
+}
