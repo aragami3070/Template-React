@@ -1,8 +1,8 @@
-import style from './AtomButton.module.css';
+import styles from './AtomButton.module.css';
 
 export default function AtomButton({ children }) {
 	return (
-		<button className={style.AtomButton}>
+		<button className={styles.AtomButton}>
 			{children}
 		</button>
 	);
