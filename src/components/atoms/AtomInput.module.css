@@ -1,0 +1,10 @@
+.AtomInput{
+	width: 400px;
+	height: 50px;
+	margin-bottom: 10px;
+	font-size: 15pt;
+	border-radius: 5px;
+	background-color: var(--grey-color);
+	color: var(--blue-color);
+	border-color: var(--blue-color);
+}
